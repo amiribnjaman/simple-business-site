@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*top area  */
+
+.top-area{
+	background: linear-gradient(rgba(204,14,92,0.5),rgba(0,0,0,0.1)), url('image/card6.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 60%;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+}
+
+.top-area .top-box{
+	padding: 70px 0;
+	width: 60%;
+}
+
+.top-area .top-box h2{
+	text-transform: capitalize;
+	font-size: 42px;
+	color: #fff;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	font-family: arial;
+	font-weight: bold;
+	font-family: san serif;
+	line-height: 39px;
+	margin-bottom: 17px;
+}
+
+.top-area .top-box  p{
+	color: #fff;
+	font-family: san serif;
+	font-size: 17px;
+}
+
+.top-box .btn{
+	margin-top: 15px;
+	padding: 7px 15px;
+	background: orange;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.top-box .btn:hover{
+	background: #d9961c;
+}
+
+/*section-top*/
+
+.section-top{
+	background: #F8F8F8;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.section-top h2{
+	padding: 30px 0;
+	text-align: center;
+	color: #0B4C80;
+	font-size: 27px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.section-top .box{
+	width: 31%;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.section-top .box .fontClass{
+	color: #0FB2EC;
+	font-size: 17px;
+	padding-bottom: 0;
+	font-weight: normal;
+	padding-top: 5px;
+}
+
+.section-top .box h3{
+	text-transform: capitalize;
+	padding-bottom: 7px;
+	color: #4C739A;
+	font-size: 17px;
+}
+
+.section-top .box hr{
+	width: 7%;
+	margin: auto;
+	padding: 1px;
+	background-color: #0FB2EC;
+	border: none;
+	
+}
+
+.section-top .box p{
+	font-size: 11px;
+	font-family: tahoma;
+	padding-top: 7px;
+	color: #9E9DA2;
+}
+
+/*backing area*/
+
+.banking-area{
+	background: #fff;
+}
+
+.banking-area .heading{
+	text-align: center;
+	color: #1D4D84;
+	text-transform: capitalize;
+	padding-top: 30px;
+	font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.banking-area ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.banking-area ul li{
+	display: inline-flex;
+}
+
+.banking-area ul li a{
+	padding: 10px 15px;
+	text-transform: capitalize;
+	color: #12517D;
+	font-size: 12px;
+	font-family: arial;
+}
+
+.banking-area ul li a:hover , .banking-area ul li a.active{
+	background: #F8F8F8;
+	color: #06B5DC;
+}
+
+.banking-area .imageTextBox{
+	background: #F8F8F8;
+	width: 72.5%;
+	height: 30%;
+	margin-left: 120px;
+	display: inline-flex;
+	margin-bottom: 50px;
+}
+
+.imageTextBox .imageBox{
+	width: 600px; 
+	display: inline-block;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 276px;
+}
+
+.imageTextBox img{
+	width: 95%;
+	height: 95%;
+}
+
+.imageTextBox .textBox{
+	width: 70%;
+	text-align: left;
+}
+
+.imageTextBox .textBox h2{
+	color: #114E82;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.imageTextBox .textBox p{
+	color: #9E9DA2;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: arial;
+}
+
+.imageTextBox .textBox .btn{
+	margin-top: 18px;
+	padding: 8px 16px;
+	background: #0FB2EC;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.imageTextBox .textBox .btn:hover{
+	background: #18A0D0;
+	color: #F9F6F5;
+}
+
+/*bottom area*/
+
+.bottom-area{
+	width: 100%;
+	padding-bottom: 70px;
+	position: relative;
+}
+
+.bottom-area .bottom-container{
+	background: #F8F8F8; 
+}
+
+.bottom-area .image{
+	width: 200px;
+	height: 150px;
+}
+
+.bottom-area .image img{
+	width: 100%;
+	height: 100%;
+}
+
+.bottom-text-area{
+	width: 30%;
+	display: inline-block;
+	margin-left: 30px;
+	padding-bottom: 50px;
+}
+
+.bottom-text-area h1{
+	text-transform: capitalize;
+	color:  #1D4D84;
+}
+
+.bottom-text-area p{
+	color: #9E9DA2;
+	font-size: 12px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+.bottom-area .bottom-card-area{
+	display: inline-flex;
+	padding-top: 20px;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+
+.bottom-card-area .first-image{
+	margin-right: 20px;
+}
+
+.bottom-area .image h3{
+	text-transform: capitalize;
+	color: #1D4D84;
+	padding-top: 12px;
+}
+
+/*footer*/
+
+.footer{
+	position: absolute;
+	bottom: 0px;
+	right: 15%;
+	
+}
+
+.footer h3{
+	color: #1D4D84;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+
+
